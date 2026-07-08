@@ -3,9 +3,9 @@ import pandas as pd
 import os
 import subprocess  # Allows python to run our backend scripts if missing
 
-st.set_page_config(page_title="AI SEO Analytics Dashboard", layout="wide")
+st.set_page_config(page_title="SEO Analytics Dashboard", layout="wide")
 
-st.title("🚀 AI-Powered SEO Semantic Analyzer & Content Gap Tool")
+st.title("🚀 SEO Semantic Analyzer & Content Gap Tool")
 st.markdown("This tool uses Natural Language Processing (`Sentence-Transformers`) to cluster search intent and discover hidden competitor gaps.")
 
 # Ensure data directory exists on the cloud server
