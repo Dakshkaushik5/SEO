@@ -30,3 +30,18 @@ To run this project locally, clone the repository and follow these steps:
    ```bash
    python -m venv env
    source env/bin/activate  # On Windows use: .\env\Scripts\Activate.ps1
+
+   Install dependencies:
+
+Bash
+python -m pip install pandas numpy scikit-learn sentence-transformers beautifulsoup4 requests streamlit
+Generate baseline data and run pipelines:
+
+Bash
+python generate_data.py
+python src/clustering.py
+python src/competitor_analyzer.py
+Launch the interactive UI:
+
+Bash
+streamlit run app.py
